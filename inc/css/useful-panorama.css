@@ -1,0 +1,215 @@
+/*
+Constants
+*/
+/*
+Hides text in the margin
+*/
+/*
+Turns a button into an icon
+*/
+/*
+Centres a graphic or glyph inside an icon
+*/
+/*
+Offers both the pixel and rem value of a single property
+*/
+/*
+Offers both the pixel and rem values of a shorthand property
+*/
+/*
+Offers the text size as both the pixel and rem value
+*/
+/*
+Adds vendor prefixed to a property
+*/
+/*
+Applies the "clearfix" hack to a container with floating content
+*/
+/*
+	Reference Styling for An Interactive Row of Thumbnails
+*/
+/* line 9, ../../src/scss/useful-panorama.scss */
+.useful-panorama {
+  font-size: 11.375px;
+  height: 22.5em;
+  width: 40em;
+  margin: 0 auto 2em auto;
+  padding: 0;
+  perspective: 50em;
+  -moz-perspective: 50em;
+  -webkit-perspective: 50em;
+  overflow: hidden;
+}
+/* line 19, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-object {
+  width: 7.2em;
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(16.4em, 1.2em, 30em);
+  transition: transform ease 500ms;
+}
+/* line 25, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-row {
+  transform-style: preserve-3d;
+  -moz-animation: spin 25s infinite linear;
+  -webkit-animation: spin 25s infinite linear;
+  -animation: spin 25s infinite linear;
+}
+/* line 31, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col {
+  position: absolute;
+  background-repeat: repeat-x;
+  background-size: 144.0em auto;
+  height: 20.0em;
+  width: 7.2em;
+  backface-visibility: hidden;
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-0 {
+  background-position: 0em 50%;
+  transform: rotateY(0deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-18 {
+  background-position: 7.2em 50%;
+  transform: rotateY(18deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-36 {
+  background-position: 14.4em 50%;
+  transform: rotateY(36deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-54 {
+  background-position: 21.6em 50%;
+  transform: rotateY(54deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-72 {
+  background-position: 28.8em 50%;
+  transform: rotateY(72deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-90 {
+  background-position: 36em 50%;
+  transform: rotateY(90deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-108 {
+  background-position: 43.2em 50%;
+  transform: rotateY(108deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-126 {
+  background-position: 50.4em 50%;
+  transform: rotateY(126deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-144 {
+  background-position: 57.6em 50%;
+  transform: rotateY(144deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-162 {
+  background-position: 64.8em 50%;
+  transform: rotateY(162deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-180 {
+  background-position: 72em 50%;
+  transform: rotateY(180deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-198 {
+  background-position: 79.2em 50%;
+  transform: rotateY(198deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-216 {
+  background-position: 86.4em 50%;
+  transform: rotateY(216deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-234 {
+  background-position: 93.6em 50%;
+  transform: rotateY(234deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-252 {
+  background-position: 100.8em 50%;
+  transform: rotateY(252deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-270 {
+  background-position: 108em 50%;
+  transform: rotateY(270deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-288 {
+  background-position: 115.2em 50%;
+  transform: rotateY(288deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-306 {
+  background-position: 122.4em 50%;
+  transform: rotateY(306deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-324 {
+  background-position: 129.6em 50%;
+  transform: rotateY(324deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-342 {
+  background-position: 136.8em 50%;
+  transform: rotateY(342deg) translateZ(-22.3em);
+}
+/* line 39, ../../src/scss/useful-panorama.scss */
+.useful-panorama .pano-col-360 {
+  background-position: 144em 50%;
+  transform: rotateY(360deg) translateZ(-22.3em);
+}
+/* line 45, ../../src/scss/useful-panorama.scss */
+.useful-panorama:hover .pano-row {
+  -moz-animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+/* line 50, ../../src/scss/useful-panorama.scss */
+.useful-panorama.example-more .pano-object {
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(16.4em, 1.2em, -4em);
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotateY(0);
+  }
+  to {
+    -moz-transform: rotateY(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotateY(0);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+  }
+}
+@media (max-width: 960px) {
+  /* line 66, ../../src/scss/useful-panorama.scss */
+  .useful-panorama {
+    font-size: 9px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 72, ../../src/scss/useful-panorama.scss */
+  .useful-panorama {
+    font-size: 10.75px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 78, ../../src/scss/useful-panorama.scss */
+  .useful-panorama {
+    font-size: 7px;
+  }
+}
