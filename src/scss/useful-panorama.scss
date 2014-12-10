@@ -12,9 +12,9 @@ $width : 455px;
 	width: 40em;
 	margin: 0 auto 2em auto;
 	padding: 0;
-	perspective: 50em;
 	-moz-perspective: 50em;
 	-webkit-perspective: 50em;
+	perspective: 50em;
 	overflow : hidden;
 	.pano-object {
 		width: 7.2em;
@@ -26,7 +26,7 @@ $width : 455px;
 		transform-style: preserve-3d;
 		-moz-animation: spin 25s infinite linear;
 		-webkit-animation: spin 25s infinite linear;
-		-animation: spin 25s infinite linear;
+		animation: spin 25s infinite linear;
 	}
 	.pano-col {
 		position: absolute;
@@ -61,6 +61,12 @@ $width : 455px;
 	from { -webkit-transform: rotateY(0); }
 	to   { -webkit-transform: rotateY(360deg); }
 }
+
+@keyframes spin {
+	from { transform: rotateY(0); }
+	to   { transform: rotateY(360deg); }
+}
+
 
 @media (max-width: 960px) {
 	.useful-panorama {
