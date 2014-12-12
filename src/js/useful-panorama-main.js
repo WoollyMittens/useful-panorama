@@ -16,12 +16,21 @@ useful.Panorama.prototype.Main = function (config, context) {
 	// PROPERTIES
 
 	"use strict";
-	this.context = context;
 	this.config = config;
+	this.context = context;
 
 	// OBJECTS
 
 	// METHODS
+
+	this.init = function () {
+		// construct the markup
+		this.construct();
+		// add the controls
+		this.controls();
+		// return the object
+		return this;
+	};
 
 	this.construct = function () {
 		var obj, row, col;
@@ -51,12 +60,6 @@ useful.Panorama.prototype.Main = function (config, context) {
 	this.controls = function () {
 		// TODO: apply the controls
 	};
-
-	// STARTUP
-
-	this.construct();
-	this.controls();
-	return this;
 
 };
 
