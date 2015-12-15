@@ -1,5 +1,5 @@
-@import "compass/css3";
-@import "compass/utilities";
+
+
 @import "mixins";
 /*
 	Reference Styling for An Interactive Row of Thumbnails
@@ -66,7 +66,6 @@ $width : 455px;
 	from { transform: rotateY(0); }
 	to   { transform: rotateY(360deg); }
 }
-
 
 @media (max-width: 960px) {
 	.useful-panorama {
