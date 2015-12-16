@@ -4,7 +4,7 @@ Displays a rotation projection of a panoramic image.
 
 For now, this is a very limited proof of concept.
 
-Try the <a href="http://www.woollymittens.nl/useful/default.php?url=useful-panorama">demo</a>.
+Try the <a href="http://www.woollymittens.nl/default.php?url=useful-panorama">demo</a>.
 
 ## How to include the script
 
