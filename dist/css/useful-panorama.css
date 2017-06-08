@@ -43,8 +43,10 @@ Applies the "clearfix" hack to a container with floating content
     transform-style: preserve-3d;
     -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(16.4em, 1.2em, 30em);
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(16.4em, 1.2em, 30em);
+    -webkit-transition: -webkit-transform ease 500ms;
     transition: -webkit-transform ease 500ms;
-    transition: transform ease 500ms; }
+    transition: transform ease 500ms;
+    transition: transform ease 500ms, -webkit-transform ease 500ms; }
   .useful-panorama .pano-row {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;

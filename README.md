@@ -1,6 +1,6 @@
 # useful.panorama.js: Projected Panoramic Image
 
-Displays a rotation projection of a panoramic image.
+Displays a rotating projection of a panoramic image.
 
 For now, this is a very limited proof of concept.
 
@@ -46,9 +46,10 @@ The following commands are available for development:
 + `npm install` - Installs the prerequisites.
 + `gulp import` - Re-imports libraries from supporting projects to `./src/libs/` if available under the same folder tree.
 + `gulp dev` - Builds the project for development purposes.
-+ `gulp prod` - Builds the project for deployment purposes.
++ `gulp dist` - Builds the project for deployment purposes.
 + `gulp watch` - Continuously recompiles updated files during development sessions.
-+ `gulp serve` - Serves the project on a temporary web server at http://localhost:8000/ .
++ `gulp serve` - Serves the project on a temporary web server at http://localhost:8500/.
++ `gulp php` - Serves the project on a temporary php server at http://localhost:8500/.
 
 ## License
 
