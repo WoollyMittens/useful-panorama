@@ -1,8 +1,8 @@
-# useful.panorama.js: Projected Panoramic Image
+# useful.panorama.js: Projected Panoramic Image (DEPRICATED)
 
 Displays a rotating projection of a panoramic image.
 
-For now, this is a very limited proof of concept.
+This limited proof of concept is depricated in favour of <a href="http://www.woollymittens.nl/default.php?url=useful-photocylinder"></a>.
 
 Try the <a href="http://www.woollymittens.nl/default.php?url=useful-panorama">demo</a>.
 
