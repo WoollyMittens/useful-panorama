@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<title>useful-panorama.js: Projected Panoramic Image (DEPRICATED)</title>
+		<title>panorama.js: Projected Panoramic Image (DEPRICATED)</title>
 		<style>
 			html { font-family:Sans-Serif; font-size:75%; height:100%; }
 			body { _height:100%; line-height:180%; margin:0; min-height:100%; padding:1%; }
@@ -11,17 +11,11 @@
 			.example-left > article, .example-left > aside { width:48%; padding:1%; float:left; }
 			.example-right > article, .example-right > aside { width:48%; padding:1%; float:right; }
 		</style>
-		<!--[if lte IE 9]>
-			<meta http-equiv="imagetoolbar" content="no"/>
-			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
-		<![endif]-->
 	</head>
 	<body>
 		<section class="example example-right">
 			<article>
-				<h2>Projected Panoramic Image</h2>
+				<h2>Projected Panoramic Image (DEPRECATED)</h2>
 				<p>Displays a rotating projection of a panoramic image.</p>
 				<p>This limited proof of concept is depricated in favour of <a href="http://www.woollymittens.nl/default.php?url=useful-photocylinder">useful-photocylinder</a>.</p>
 				<p><a class="button downloadButton" href="http://github.com/WoollyMittens/useful-panorama" target="_blank">Download (GitHub)</a></p>
@@ -29,17 +23,17 @@
 			<aside>
 
 				<!-- Cut below this -->
-				<style>@import url("./css/useful-panorama.css");</style>
+				<style>@import url("./css/panorama.css");</style>
 				<h3>360&deg;</h3>
 				<figure id="panoramaExampleA" class="useful-panorama example-less" data-src="./img/100_7443_100_7461.jpg" data-angle="360"></figure>
 				<figure id="panoramaExampleB" class="useful-panorama example-less" data-src="./img/IMG_1249_IMG_1275.jpg" data-angle="360"></figure>
 				<h3>180&deg; (not implemented yet)</h3>
 				<figure id="panoramaExampleC" class="useful-panorama example-less" data-src="./img/PC070419_PC070423.jpg" data-angle="180"></figure>
-				<script src="./js/useful-panorama.js"></script>
+				<script src="./js/panorama.js"></script>
 				<script>
 				//<!--
 					// create a new instance of the script
-					var zoom = new useful.Panorama().init({
+					var zoom = new Panorama({
 						'elements' : document.querySelectorAll('.useful-panorama')
 					});
 				//-->

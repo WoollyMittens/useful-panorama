@@ -1,4 +1,4 @@
-# useful.panorama.js: Projected Panoramic Image (DEPRICATED)
+# panorama.js: Projected Panoramic Image (DEPRICATED)
 
 Displays a rotating projection of a panoramic image.
 
@@ -11,19 +11,19 @@ Try the <a href="http://www.woollymittens.nl/default.php?url=useful-panorama">de
 The stylesheet is best included in the header of the document.
 
 ```html
-<link rel="stylesheet" href="./css/useful-panorama.css"/>
+<link rel="stylesheet" href="./css/panorama.css"/>
 ```
 
 This include can be added to the header or placed inline before the script is invoked.
 
 ```html
-<script src="./js/useful-panorama.js"></script>
+<script src="./js/panorama.js"></script>
 ```
 
 ## How to start the script
 
 ```javascript
-var zoom = new useful.Panorama().init({
+var zoom = new Panorama({
 	'elements' : document.querySelectorAll('.useful-panorama')
 });
 ```

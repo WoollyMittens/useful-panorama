@@ -1,36 +1,14 @@
-/*
-	Source:
-	van Creij, Maurice (2014). "useful.panorama.js: Projected Panoramic Image", version 20141127, http://www.woollymittens.nl/.
-
-	License:
-	This work is licensed under a Creative Commons Attribution 3.0 Unported License.
-*/
-
-// create the constructor if needed
-var useful = useful || {};
-useful.Panorama = useful.Panorama || function () {};
-
-// extend the constructor
-useful.Panorama.prototype.Main = function (config, context) {
+// extend the class
+Panorama.prototype.Main = function (config, context) {
 
 	// PROPERTIES
 
-	"use strict";
 	this.config = config;
 	this.context = context;
 
 	// OBJECTS
 
 	// METHODS
-
-	this.init = function () {
-		// construct the markup
-		this.construct();
-		// add the controls
-		this.controls();
-		// return the object
-		return this;
-	};
 
 	this.construct = function () {
 		var obj, row, col;
@@ -61,9 +39,9 @@ useful.Panorama.prototype.Main = function (config, context) {
 		// TODO: apply the controls
 	};
 
-};
+	// EVENTS
 
-// return as a require.js module
-if (typeof module !== 'undefined') {
-	exports = module.exports = useful.Panorama.Main;
-}
+	this.construct();
+	this.controls();
+
+};
