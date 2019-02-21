@@ -34,6 +34,5 @@ var Panorama = function (config) {
 };
 
 // return as a require.js module
-if (typeof module !== 'undefined') {
-	exports = module.exports = Panorama;
-}
+if (typeof define != 'undefined') define(['panorama'], function () { return Panorama });
+if (typeof module != 'undefined') module.exports = Panorama;
