@@ -555,27 +555,4 @@ Gestures.prototype.Single = function (parent) {
 		return function (event) {
 			// get event elementect
 			event = event || window.event;
-			// optionally cancel the default behaviour
-			_this.cancelTouch(event);
-			// handle the event
-			_this.changeTouch(event);
-		};
-	};
-
-	this.onEndTouch = function () {
-		// store the _this
-		var _this = this;
-		// return and event handler
-		return function (event) {
-			// get event elementect
-			event = event || window.event;
-			// handle the event
-			_this.endTouch(event);
-		};
-	};
-
-	// EVENTS
-
-	this.init();
-
-};
+			// optionally cancel the defa

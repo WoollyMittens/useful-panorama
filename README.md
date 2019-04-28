@@ -11,13 +11,32 @@ Try the <a href="http://www.woollymittens.nl/default.php?url=useful-panorama">de
 The stylesheet is best included in the header of the document.
 
 ```html
-<link rel="stylesheet" href="./css/panorama.css"/>
+<link rel="stylesheet" href="css/panorama.css"/>
 ```
 
 This include can be added to the header or placed inline before the script is invoked.
 
 ```html
-<script src="./js/panorama.js"></script>
+<script src="lib/gestures.js"></script>
+<script src="js/panorama.js"></script>
+```
+
+Or use [Require.js](https://requirejs.org/).
+
+```js
+requirejs([
+	'lib/gestures.js',
+	'js/panorama.js'
+], function(Gestures, Panorama) {
+	...
+});
+```
+
+Or import into an MVC framework.
+
+```js
+var Gestures = require('lib/gestures.js');
+var Panorama = require('js/panorama.js');
 ```
 
 ## How to start the script
